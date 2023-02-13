@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:8001
+
+post {{baseUrl}}/api/products/13/like
+Accept: application/json
+Content-Type: application/json
+
+
+# {
+#     "title" : "new title2",
+#     "image" : "new Image2"
+# }
